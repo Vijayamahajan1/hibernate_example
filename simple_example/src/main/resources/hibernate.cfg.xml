@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+<!--        &lt;!&ndash; Database connection settings &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/employeedb</property>-->
+<!--        <property name="hibernate.connection.username">postgres</property>-->
+<!--        <property name="hibernate.connection.password">root</property>-->
+
+<!--        &lt;!&ndash; JDBC connection pool settings &ndash;&gt;-->
+<!--        &lt;!&ndash;        <property name="hibernate.connection.pool_size">5</property>&ndash;&gt;-->
+
+<!--        &lt;!&ndash; Hibernate dialect for PostgreSQL &ndash;&gt;-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>-->
+
+<!--        &lt;!&ndash; Echo all executed SQL to stdout &ndash;&gt;-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+<!--        <mapping class="org.example.User"/>-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
